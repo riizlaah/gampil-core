@@ -1,0 +1,6 @@
+<?php
+use Gampil\App\Controller;
+
+class {name} extends Controller {
+
+}

@@ -1,0 +1,12 @@
+<?php
+use Gampil\Database\Table;
+
+//DONT MODIFY FILE NAME
+
+class {name} {
+  public function on_create() {
+    $table = new Table("{name}");
+    $table->id()
+      ->create();
+  }
+}

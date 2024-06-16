@@ -1,0 +1,18 @@
+{
+    "name": "gampil/gampil-core",
+    "description": "Data penting untuk Gampil Framework",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Gampil\\": "./"
+        }
+    },
+    "authors": [
+        {
+            "name": "Naf'an Rizkilah"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}

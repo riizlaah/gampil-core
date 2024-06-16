@@ -1,0 +1,13 @@
+<?php
+namespace models;
+
+use Gampil\App\Model;
+
+class {name} extends Model {
+  // protected function factory(\Faker\Generator $faker, $i) {
+  //   $this->insert([
+  //     
+  //   ]);
+  // }
+  // protected function init() {}
+}

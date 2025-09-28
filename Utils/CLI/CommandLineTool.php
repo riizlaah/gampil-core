@@ -24,7 +24,7 @@ class CommandLineTool {
     if(isset($args[1])) $commands[1] = $args[1];
     unset($args[0], $args[1], $raw);
     $full_cmd = implode('_', $commands);
-    if(method_exists(Commands::class, $full_cmd)) {
+    if(!method_exists(Commands::class, $full_cmd)) {
       echo "command not found: \033[38;05;11m".str_replace('_', ' ', $full_cmd)."\033[0m";
       return;
     }
